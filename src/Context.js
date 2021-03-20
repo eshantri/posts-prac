@@ -30,6 +30,7 @@ export default class ContextProvider extends Component {
         method: "DELETE",
       }
     );
+    console.log(res);
     if (this.isLiked(id)) {
       this.setState({
         ...this.state,

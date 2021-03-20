@@ -2,7 +2,6 @@ import React, { useContext, useState } from "react";
 import { Context } from "../Context";
 import Post from "./Post";
 import { TextField } from "@material-ui/core";
-import CircularProgress from "@material-ui/core/CircularProgress";
 const PostList = () => {
   const context = useContext(Context);
   const posts = context.dislikedPosts;
