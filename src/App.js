@@ -42,7 +42,7 @@ function App() {
         <div className="App">
           <ThemeProvider theme={theme}>
             <CssBaseline />
-            <AppBar position="fixed">
+            <AppBar position="fixed" style={{marginBottom: "10px"}}>
               <Toolbar>
                 <Link
                   to="/"
